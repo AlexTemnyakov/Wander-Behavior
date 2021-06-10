@@ -7,6 +7,8 @@ using UnityEngine.AI;
 [RequireComponent(typeof(Animator))]
 public class AligatorAnimatorController : MonoBehaviour
 {
+    public float animationSpeedFactor = 2f;
+
     private Animator animator;
     private AligatorBrain aligatorBrain;
 
@@ -24,5 +26,6 @@ public class AligatorAnimatorController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         aligatorBrain = GetComponent<AligatorBrain>();
+
     }
 }

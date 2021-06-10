@@ -8,17 +8,53 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class AligatorBrain : MonoBehaviour
 {
-    public int seed;
-    public float walkingSpeed;
-    public float walkingRadius;
-    public float maxWaitingTime;
-    public float minWaitingTime;
+    [Header("Random Number Generator", order = 0)]
+    [Tooltip("Value to initialize the random number generator.")]
+    public int seed = 0;
+
+    [Space(30, order = 1)]
+
+    [Header("Walking Area", order = 2)]
+    [Tooltip("Maximum distance from the start point.")]
+    public float walkingRadius = 10;
+
+    [Space(30)]
+
+    [Header("Walking Speed", order = 3)]
+    [Tooltip("Minimum walking speed.")]
+    public float minWalkingSpeed = 0.2f;
+    [Tooltip("Maximum walking speed.")]
+    public float maxWalkingSpeed = 1.0f;
+
+    [Space(30)]
+
+    [Header("Idle time", order = 4)]
+    [Header("When the aligator reaches the target point, it stands for some time.", order = 5)]
+    [Tooltip("Minimum waiting time.")]
+    public float minWaitingTime = 0.0f;
+    [Tooltip("Maximum waiting time.")]
+    public float maxWaitingTime = 10.0f;
+
+    [Space(30)]
+
+    [Header("Debugging", order = 6)]
+    [Range(0, 2)]
+    [Tooltip("Draw the sphere at the destination point in the editor. 0 - don't draw. 1 - draw always. 2 - draw when the object is selected.")]
+    public byte drawSphereAtDestination = 0;
+    [SerializeField]
+    private float selectedTimeToWait;
+    [SerializeField]
+    private float selectedWalkingSpeed;
 
     private System.Random random = null;
-    private CompositeBT behaviour;
-    private NavMeshAgent agent;
-    private float currentSpeed;
-    private bool isWaiting;
+
+    private CompositeBT behaviour = null;
+
+    private NavMeshAgent agent = null;
+
+    private bool isWaiting = false;    
+
+    private Vector3 startPosition;
 
     private void Awake()
     {
@@ -37,46 +73,37 @@ public class AligatorBrain : MonoBehaviour
 
     private void FixedUpdate()
     {
-        currentSpeed = agent.enabled ? agent.speed : -1f;
-
-        if (isWaiting)
-        {
-            agent.enabled = false;
-
-            return;
-        }
-
-        agent.enabled = true;
-
         behaviour.Execute();
     }
 
     public void Initialize()
     {
+        startPosition = transform.position;
+
         random = new System.Random(seed);
 
         agent = GetComponent<NavMeshAgent>();
+        agent.ResetPath();
 
         behaviour = new SelectorBT();
 
         behaviour.AddNode(CreateNodeForWaiting());
         behaviour.AddNode(CreateNodeToSelectNewDestination());
         behaviour.AddNode(CreateNodeToWalk());
-
-        for (int i = 0; i < 100; i++)
-        {
-            if (SetAgentTarget(NavMeshUtils.CreateRandomPoint(transform.position, 15f, random)))
-            {
-                break;
-            }
-        }
     }
 
     private ActionBT CreateNodeForWaiting()
     {
         return new ActionBT(() =>
         {
-            return isWaiting ? NodeStatusBT.SUCCESS : NodeStatusBT.FAILURE;
+            if (isWaiting)
+            {
+                Stand();
+
+                return NodeStatusBT.SUCCESS;
+            }
+            else
+                return NodeStatusBT.FAILURE;
         });
     }        
 
@@ -88,9 +115,12 @@ public class AligatorBrain : MonoBehaviour
             {
                 Stand();
 
-                if (SetAgentTarget(NavMeshUtils.CreateRandomPoint(transform.position, walkingRadius, random)))
+                selectedWalkingSpeed = Mathf.Lerp(minWalkingSpeed, maxWalkingSpeed, (float)random.NextDouble());
+
+                if (SetAgentTarget(NavMeshUtils.CreateRandomPoint(startPosition, walkingRadius, random)))
                 {
-                    StartCoroutine(WaitFor((float)random.NextDouble() * (maxWaitingTime - minWaitingTime) + minWaitingTime));
+                    selectedTimeToWait = Mathf.Lerp(minWaitingTime, maxWaitingTime, (float)random.NextDouble());
+                    StartCoroutine(WaitFor(selectedTimeToWait));
                 }
 
                 return NodeStatusBT.SUCCESS;
@@ -110,19 +140,9 @@ public class AligatorBrain : MonoBehaviour
         });
     }
 
-    private ActionBT CreateNodeToStand()
-    {
-        return new ActionBT(() =>
-        {
-            Stand();
-
-            return NodeStatusBT.SUCCESS;
-        });
-    }    
-
     private void Walk()
     {
-        agent.speed = walkingSpeed;
+        agent.speed = selectedWalkingSpeed;
     }
 
     private void Stand()
@@ -181,11 +201,33 @@ public class AligatorBrain : MonoBehaviour
         isWaiting = false;
     }
 
+    private void OnDrawGizmos()
+    {
+#if UNITY_EDITOR
+        if (agent != null && drawSphereAtDestination == 1)
+        {
+            Gizmos.color = Color.white;
+            Gizmos.DrawSphere(agent.destination, 0.15f);
+        }
+#endif
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+#if UNITY_EDITOR
+        if (agent != null && drawSphereAtDestination == 2)
+        {
+            Gizmos.color = Color.white;
+            Gizmos.DrawSphere(agent.destination, 0.15f);
+        }
+#endif
+    }
+
     public float CurrentSpeed
     {
         get
         {
-            return currentSpeed;
+            return !isWaiting ? agent.speed : -1f;
         }
     }
 }

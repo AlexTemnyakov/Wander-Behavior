@@ -1039,10 +1039,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   seed: 0
-  walkingSpeed: 0
-  walkingRadius: 20
-  maxWaitingTime: 0
+  walkingRadius: 10
+  minWalkingSpeed: 0.2
+  maxWalkingSpeed: 1.2
   minWaitingTime: 0
+  maxWaitingTime: 10
+  selectedWalkingSpeed: 0
 --- !u!195 &7443030158196860494
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1061,7 +1063,7 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 2
+  m_Height: 0.12
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
@@ -1077,6 +1079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f8492c3d5f26f249b0d03bf3c47aeab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animationSpeedFactor: 2
 --- !u!1 &7879835849367599920
 GameObject:
   m_ObjectHideFlags: 0
