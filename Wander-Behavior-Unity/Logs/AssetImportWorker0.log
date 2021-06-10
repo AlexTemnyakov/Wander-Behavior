@@ -15,11 +15,11 @@ G:/Projects/Unity/Wander-Behavior/Wander-Behavior-Unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54417
+54307
 Successfully changed project path to: G:/Projects/Unity/Wander-Behavior/Wander-Behavior-Unity
 G:/Projects/Unity/Wander-Behavior/Wander-Behavior-Unity
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 29.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path E:/Program Files/Unity/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -35,179 +35,659 @@ Initialize mono
 Mono path[0] = 'E:/Program Files/Unity/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Program Files/Unity/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Program Files/Unity/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Program Files/Unity/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001065 seconds.
+Registered in 0.001022 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.912 seconds
+- Completed reload, in  0.923 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002355 seconds.
+Registered in 0.002635 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.944 seconds
+- Completed reload, in  0.974 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.6 MB.
+System memory in use before: 64.7 MB.
 System memory in use after: 64.7 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1819.
-Total: 1.789300 ms (FindLiveObjects: 0.134000 ms CreateObjectMapping: 0.051100 ms MarkObjects: 1.486700 ms  DeleteObjects: 0.105200 ms)
+Total: 1.783500 ms (FindLiveObjects: 0.121000 ms CreateObjectMapping: 0.046900 ms MarkObjects: 1.510400 ms  DeleteObjects: 0.104400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.008329 seconds
-  Import took 0.010730 seconds .
+  path: Assets/Models/Alligator/AlligatorAnimatorController.controller
+  artifactKey: Guid(924aff8de0d2b2f45947dd0d398d2c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/AlligatorAnimatorController.controller using Guid(924aff8de0d2b2f45947dd0d398d2c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7b6e8d03ccef063881b81c22571742') in 0.042173 seconds
+  Import took 0.044506 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.510020 seconds.
-  path: Assets/Models
-  artifactKey: Guid(1fd55b4293bf66046a63182d481f83b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(1fd55b4293bf66046a63182d481f83b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c550b7c166ec78345f6562f8e32989d4') in 0.006974 seconds
-  Import took 0.009886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.551710 seconds.
-  path: Assets/Models/Alligator
-  artifactKey: Guid(a14a4500dda336444a93517348702627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Alligator using Guid(a14a4500dda336444a93517348702627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7d98f61abf8565d83879a8b3be77c0') in 0.008132 seconds
-  Import took 0.010986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.647082 seconds.
+  Time since last request: 185.892800 seconds.
   path: Assets/Models/Alligator/aligator.FBX
   artifactKey: Guid(bbd19cb63c2b97f4f81e98d8d6e8a641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Alligator/aligator.FBX using Guid(bbd19cb63c2b97f4f81e98d8d6e8a641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d71f25e81c0694fb4e0d0d55274249f') in 0.529301 seconds
-  Import took 0.532099 seconds .
+Start importing Assets/Models/Alligator/aligator.FBX using Guid(bbd19cb63c2b97f4f81e98d8d6e8a641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28670ac33db4fbaaab689b094b680789') in 0.144833 seconds
+  Import took 0.147996 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Models/Alligator/alligator-texture.png
-  artifactKey: Guid(ccb7d51db35163d49b4892c5bfbe964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Alligator/alligator-texture.png using Guid(ccb7d51db35163d49b4892c5bfbe964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9fbab98b7827fe18d382fdbe10662e') in 0.025349 seconds
-  Import took 0.027504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
+  Time since last request: 18.055790 seconds.
   path: Assets/Models/Alligator/aligator@walk.FBX
   artifactKey: Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Alligator/aligator@walk.FBX using Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf6726a7bb3655e60567f862e33411b') in 0.008795 seconds
-  Import took 0.011228 seconds .
+Start importing Assets/Models/Alligator/aligator@walk.FBX using Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579aa1393334341dff591cbb0cc8d77f') in 0.010355 seconds
+  Import took 0.013426 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Models/Alligator/alligato-eyes-texture.png
-  artifactKey: Guid(29b93c10539f2b447adc9b4537132b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Alligator/alligato-eyes-texture.png using Guid(29b93c10539f2b447adc9b4537132b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdee8f9e40995026d3e93ef9393c29e6') in 0.010414 seconds
-  Import took 0.012544 seconds .
+  Time since last request: 0.011718 seconds.
+  path: Assets/Models/Alligator/aligator@walk.FBX
+  artifactKey: Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator@walk.FBX using Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579aa1393334341dff591cbb0cc8d77f') in 0.005259 seconds
+  Import took 0.008485 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
+  Time since last request: 26.061474 seconds.
+  path: Assets/Models/Alligator/aligator@walk.FBX
+  artifactKey: Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator@walk.FBX using Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baec27235cee278cdcb296260de0c718') in 0.005885 seconds
+  Import took 0.009652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.017444 seconds.
   path: Assets/Models/Alligator/aligator@idle.FBX
   artifactKey: Guid(76ad2631cb76f564aa6123d9c6a72d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Alligator/aligator@idle.FBX using Guid(76ad2631cb76f564aa6123d9c6a72d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a51ccd9be3d36f479576fd22d471559') in 0.027095 seconds
-  Import took 0.029365 seconds .
+Start importing Assets/Models/Alligator/aligator@idle.FBX using Guid(76ad2631cb76f564aa6123d9c6a72d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f5883c5129d15ad3f2c9f93bda5299') in 0.034742 seconds
+  Import took 0.038072 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.721486 seconds.
-  path: Assets/Models/Terrain
-  artifactKey: Guid(52b1410c0862c9e498730a756bb1cd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Terrain using Guid(52b1410c0862c9e498730a756bb1cd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b9896ad7fc052980bc22eb2a13925c') in 0.006668 seconds
-  Import took 0.009718 seconds .
+  Time since last request: 20.365758 seconds.
+  path: Assets/Models/Alligator/aligator@walk.FBX
+  artifactKey: Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator@walk.FBX using Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34349ebbabc837b3f250966b8f43311a') in 0.005885 seconds
+  Import took 0.009272 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.561192 seconds.
-  path: Assets/Models/Terrain/aztec-base-texture.png
-  artifactKey: Guid(6ad232de99dedb148813b6ab34236a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Terrain/aztec-base-texture.png using Guid(6ad232de99dedb148813b6ab34236a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3781829ad0adbb1d123ae2eca692f4ef') in 0.023914 seconds
-  Import took 0.027211 seconds .
+  Time since last request: 0.001792 seconds.
+  path: Assets/Models/Alligator/aligator@walk.FBX
+  artifactKey: Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator@walk.FBX using Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34349ebbabc837b3f250966b8f43311a') in 0.005248 seconds
+  Import took 0.008509 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Models/Terrain/aztec-base.FBX
-  artifactKey: Guid(89099744badd1ff43b7578bde2acbb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Terrain/aztec-base.FBX using Guid(89099744badd1ff43b7578bde2acbb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718081034da584bb24f4efb7750e1cd5') in 0.014856 seconds
-  Import took 0.017224 seconds .
+  Time since last request: 1076.319322 seconds.
+  path: Assets/Models/Alligator/aligator@walk.FBX
+  artifactKey: Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator@walk.FBX using Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0095a0d41081eecfa1cc5a538852dd6') in 0.052827 seconds
+  Import took 0.077510 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.018223 seconds.
-  path: Assets/Models/Terrain/Materials
-  artifactKey: Guid(e90818341e8aedf44a687831ffc6af3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Terrain/Materials using Guid(e90818341e8aedf44a687831ffc6af3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553e430e009236fac59a738839d3ef8d') in 0.007308 seconds
-  Import took 0.011128 seconds .
+  Time since last request: 24.978593 seconds.
+  path: Assets/Models/Alligator/aligator@walk.FBX
+  artifactKey: Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator@walk.FBX using Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8e57f10390dfe259667a774faf82f0') in 0.005295 seconds
+  Import took 0.052852 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/Models/Terrain/Materials
-  artifactKey: Guid(e90818341e8aedf44a687831ffc6af3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Terrain/Materials using Guid(e90818341e8aedf44a687831ffc6af3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553e430e009236fac59a738839d3ef8d') in 0.002072 seconds
-  Import took 0.005228 seconds .
+  Time since last request: 211.159563 seconds.
+  path: Assets/Models/Alligator/aligator@walk.FBX
+  artifactKey: Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator@walk.FBX using Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0e9aa5930273103557f6da66a06c4d') in 0.005882 seconds
+  Import took 0.060615 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.093099 seconds.
-  path: Assets/Models/Terrain/Materials/aztec-base-texture.mat
-  artifactKey: Guid(daa07f6c7ad76564d947bf707dcd594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Terrain/Materials/aztec-base-texture.mat using Guid(daa07f6c7ad76564d947bf707dcd594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0102e1eb329fac84bf7f9b42cb45ed1') in 0.026197 seconds
-  Import took 0.029449 seconds .
+  Time since last request: 22.092957 seconds.
+  path: Assets/Models/Alligator/aligator.FBX
+  artifactKey: Guid(bbd19cb63c2b97f4f81e98d8d6e8a641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator.FBX using Guid(bbd19cb63c2b97f4f81e98d8d6e8a641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec550299d102932424be48be4ea5b3d') in 0.099512 seconds
+  Import took 0.126347 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.103204 seconds.
-  path: Assets/Models/Terrain/Materials/aztec-base-texture.mat
-  artifactKey: Guid(daa07f6c7ad76564d947bf707dcd594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Terrain/Materials/aztec-base-texture.mat using Guid(daa07f6c7ad76564d947bf707dcd594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa5a730feb27512f5ca39cae2553e62') in 0.016325 seconds
-  Import took 0.019097 seconds .
+  Time since last request: 6.608467 seconds.
+  path: Assets/Models/Alligator/aligator@idle.FBX
+  artifactKey: Guid(76ad2631cb76f564aa6123d9c6a72d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator@idle.FBX using Guid(76ad2631cb76f564aa6123d9c6a72d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e99ac68339738a20c628c29f3ccda52') in 0.037060 seconds
+  Import took 0.056681 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.429627 seconds.
-  path: Assets/Models/Alligator/Materials
-  artifactKey: Guid(217b0780505cf0c4d8983ee53093d9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Alligator/Materials using Guid(217b0780505cf0c4d8983ee53093d9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a44a66c6cdcf02c322f9b20b800880') in 0.002395 seconds
-  Import took 0.005384 seconds .
+  Time since last request: 25.345163 seconds.
+  path: Assets/Models/Alligator/aligator@walk.FBX
+  artifactKey: Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator@walk.FBX using Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a110331f891e31da440eac075524b6c') in 0.004999 seconds
+  Import took 0.007919 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.106711 seconds.
-  path: Assets/Models/Alligator/Materials/alligator-texture.mat
-  artifactKey: Guid(1b833fc62c54ef14db699a7fe303c8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Alligator/Materials/alligator-texture.mat using Guid(1b833fc62c54ef14db699a7fe303c8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6046650d736561fe5b39c5f35bf7f927') in 0.012799 seconds
-  Import took 0.015369 seconds .
+  Time since last request: 0.010500 seconds.
+  path: Assets/Models/Alligator/aligator@walk.FBX
+  artifactKey: Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator@walk.FBX using Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a110331f891e31da440eac075524b6c') in 0.005129 seconds
+  Import took 0.008778 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.921064 seconds.
-  path: Assets/Models/Alligator/Materials/alligator-texture.mat
-  artifactKey: Guid(1b833fc62c54ef14db699a7fe303c8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Alligator/Materials/alligator-texture.mat using Guid(1b833fc62c54ef14db699a7fe303c8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0a645a4517f2a1ae32811f266705c1') in 0.016617 seconds
-  Import took 0.019752 seconds .
+  Time since last request: 2201.395006 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(e3b48fb09f55ffa4f803b491d1b7fcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(e3b48fb09f55ffa4f803b491d1b7fcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4cdc9474372900bec63d0dc64fb7ba') in 0.011336 seconds
+  Import took 0.015763 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(e3b48fb09f55ffa4f803b491d1b7fcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(e3b48fb09f55ffa4f803b491d1b7fcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4cdc9474372900bec63d0dc64fb7ba') in 0.002721 seconds
+  Import took 0.005874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.554422 seconds.
+  path: Assets/Scripts/NavMeshUtils
+  artifactKey: Guid(8a3df6d219878d9419e0c06f1dfd40b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NavMeshUtils using Guid(8a3df6d219878d9419e0c06f1dfd40b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afca01b2217bf81bcbdb34fe3a60e14c') in 0.018205 seconds
+  Import took 0.022283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000799 seconds.
+  path: Assets/Scripts/NavMeshUtils
+  artifactKey: Guid(8a3df6d219878d9419e0c06f1dfd40b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NavMeshUtils using Guid(8a3df6d219878d9419e0c06f1dfd40b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afca01b2217bf81bcbdb34fe3a60e14c') in 0.002373 seconds
+  Import took 0.005517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.527864 seconds.
+  path: Assets/Scripts/Behaviour Tree
+  artifactKey: Guid(9809f8e0588e2bb4fa0b04d4555e6c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Behaviour Tree using Guid(9809f8e0588e2bb4fa0b04d4555e6c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb4a40adbfb542ec2411731e82793c8') in 0.007836 seconds
+  Import took 0.011610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.629542 seconds.
+  path: Assets/Scripts/Aligator Brain
+  artifactKey: Guid(c288c845c8a34e14aacf61a70cc6728d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Aligator Brain using Guid(c288c845c8a34e14aacf61a70cc6728d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a91c69ac8151bbfa1f8ab7ada35a6e') in 0.009574 seconds
+  Import took 0.013180 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.116792 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.216 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1878.
+Total: 4.295000 ms (FindLiveObjects: 0.907400 ms CreateObjectMapping: 0.133000 ms MarkObjects: 3.140600 ms  DeleteObjects: 0.111600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002437 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.187 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1881.
+Total: 3.397400 ms (FindLiveObjects: 0.234200 ms CreateObjectMapping: 0.074100 ms MarkObjects: 2.966400 ms  DeleteObjects: 0.120800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002560 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.018 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1884.
+Total: 1.856800 ms (FindLiveObjects: 0.133700 ms CreateObjectMapping: 0.047500 ms MarkObjects: 1.583600 ms  DeleteObjects: 0.091000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002788 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.000 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1887.
+Total: 1.920000 ms (FindLiveObjects: 0.134900 ms CreateObjectMapping: 0.046600 ms MarkObjects: 1.681000 ms  DeleteObjects: 0.056600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002559 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1890.
+Total: 1.828400 ms (FindLiveObjects: 0.144600 ms CreateObjectMapping: 0.046600 ms MarkObjects: 1.577000 ms  DeleteObjects: 0.059200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002400 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.966 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1893.
+Total: 2.116300 ms (FindLiveObjects: 0.171400 ms CreateObjectMapping: 0.095500 ms MarkObjects: 1.787900 ms  DeleteObjects: 0.060600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003051 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1896.
+Total: 2.135400 ms (FindLiveObjects: 0.177700 ms CreateObjectMapping: 0.048600 ms MarkObjects: 1.826700 ms  DeleteObjects: 0.081600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3173.053283 seconds.
+  path: Assets/Scripts/Aligator
+  artifactKey: Guid(c288c845c8a34e14aacf61a70cc6728d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Aligator using Guid(c288c845c8a34e14aacf61a70cc6728d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c73daadd1c8775c6099c9bb2cc85c7') in 0.017549 seconds
+  Import took 0.023007 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002792 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1899.
+Total: 2.180500 ms (FindLiveObjects: 0.179500 ms CreateObjectMapping: 0.086600 ms MarkObjects: 1.827800 ms  DeleteObjects: 0.085800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.733915 seconds.
+  path: Assets/Scripts/Aligator/AligatorBrain.cs
+  artifactKey: Guid(aa1a35cbecf70cc4c99800878580b4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Aligator/AligatorBrain.cs using Guid(aa1a35cbecf70cc4c99800878580b4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f427869359754a3c7eb237c0807026') in 0.033304 seconds
+  Import took 0.036134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002934 seconds.
+  path: Assets/Scripts/Aligator/AligatorBrain.cs
+  artifactKey: Guid(aa1a35cbecf70cc4c99800878580b4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Aligator/AligatorBrain.cs using Guid(aa1a35cbecf70cc4c99800878580b4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f427869359754a3c7eb237c0807026') in 0.002253 seconds
+  Import took 0.004960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.856694 seconds.
+  path: Assets/Scripts/Aligator/AligatorAnimatorController.cs
+  artifactKey: Guid(6f8492c3d5f26f249b0d03bf3c47aeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Aligator/AligatorAnimatorController.cs using Guid(6f8492c3d5f26f249b0d03bf3c47aeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62be2ee4ace517a6c249995255c846fa') in 0.008982 seconds
+  Import took 0.012218 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002446 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.051 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1903.
+Total: 2.514300 ms (FindLiveObjects: 0.151200 ms CreateObjectMapping: 0.073000 ms MarkObjects: 2.204500 ms  DeleteObjects: 0.084700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002596 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.0 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1906.
+Total: 2.496000 ms (FindLiveObjects: 0.126800 ms CreateObjectMapping: 0.045600 ms MarkObjects: 2.256600 ms  DeleteObjects: 0.066200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.055065 seconds.
+  path: Assets/Scripts/Aligator/AligatorAnimatorController.cs
+  artifactKey: Guid(6f8492c3d5f26f249b0d03bf3c47aeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Aligator/AligatorAnimatorController.cs using Guid(6f8492c3d5f26f249b0d03bf3c47aeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca7cc7b005eb69413adbc73f73d6d3f') in 0.007009 seconds
+  Import took 0.009498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.620303 seconds.
+  path: Assets/Models/Alligator/Prefab
+  artifactKey: Guid(654ebd579477de248aa2ddd02f3d309b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/Prefab using Guid(654ebd579477de248aa2ddd02f3d309b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187f2c3fefc9e8280a25f12c8a4faa5d') in 0.008318 seconds
+  Import took 0.011470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.683784 seconds.
+  path: Assets/Models/Alligator/Prefab/aligator.prefab
+  artifactKey: Guid(69da1a3aa875a7646b2bf88ed77f896b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/Prefab/aligator.prefab using Guid(69da1a3aa875a7646b2bf88ed77f896b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (AlligatorAnimatorController) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (AlligatorAnimatorController) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'fb20b71a8bfe65c541c720177af8e57d') in 0.137040 seconds
+  Import took 0.140376 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002674 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1910.
+Total: 2.402900 ms (FindLiveObjects: 0.180300 ms CreateObjectMapping: 0.099000 ms MarkObjects: 2.064200 ms  DeleteObjects: 0.058600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002421 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1913.
+Total: 2.318900 ms (FindLiveObjects: 0.165200 ms CreateObjectMapping: 0.101800 ms MarkObjects: 1.963300 ms  DeleteObjects: 0.087700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.629673 seconds.
+  path: Assets/Models/Alligator/AlligatorAnimatorController.controller
+  artifactKey: Guid(924aff8de0d2b2f45947dd0d398d2c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/AlligatorAnimatorController.controller using Guid(924aff8de0d2b2f45947dd0d398d2c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe148b561bce79bc13c60050b5a2c193') in 0.021524 seconds
+  Import took 0.025492 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002700 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1916.
+Total: 2.578000 ms (FindLiveObjects: 0.230300 ms CreateObjectMapping: 0.144700 ms MarkObjects: 2.118400 ms  DeleteObjects: 0.083900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.528405 seconds.
+  path: Assets/Models/Alligator/aligator@walk.FBX
+  artifactKey: Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator@walk.FBX using Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8d7921a3a331fafbc4b3bde402e5f1') in 0.037041 seconds
+  Import took 0.040879 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003359 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1919.
+Total: 2.339900 ms (FindLiveObjects: 0.223900 ms CreateObjectMapping: 0.359900 ms MarkObjects: 1.676500 ms  DeleteObjects: 0.078800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002476 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1922.
+Total: 2.375400 ms (FindLiveObjects: 0.222100 ms CreateObjectMapping: 0.107500 ms MarkObjects: 1.977600 ms  DeleteObjects: 0.067100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.464336 seconds.
+  path: Assets/Models/Alligator/aligator@idle.FBX
+  artifactKey: Guid(76ad2631cb76f564aa6123d9c6a72d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator@idle.FBX using Guid(76ad2631cb76f564aa6123d9c6a72d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c352dfb9c5789ca05c9b202edc109e2d') in 0.115851 seconds
+  Import took 0.118885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.750597 seconds.
+  path: Assets/Models/Alligator/aligator@idle.FBX
+  artifactKey: Guid(76ad2631cb76f564aa6123d9c6a72d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator@idle.FBX using Guid(76ad2631cb76f564aa6123d9c6a72d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc3bde164762a495bc48c7a705631b7') in 0.039340 seconds
+  Import took 0.042446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.019695 seconds.
+  path: Assets/Models/Alligator/aligator@idle.FBX
+  artifactKey: Guid(76ad2631cb76f564aa6123d9c6a72d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator@idle.FBX using Guid(76ad2631cb76f564aa6123d9c6a72d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de11eb2fc3ecd9f146c69e0ce81d8221') in 0.041851 seconds
+  Import took 0.045735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.663117 seconds.
+  path: Assets/Models/Alligator/aligator@walk.FBX
+  artifactKey: Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator@walk.FBX using Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9233ceba70743e154c849eba07a6cd5') in 0.008518 seconds
+  Import took 0.012586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017488 seconds.
+  path: Assets/Models/Alligator/aligator@walk.FBX
+  artifactKey: Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Alligator/aligator@walk.FBX using Guid(a8dd137a1996e3047bb1212b1ca836db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9233ceba70743e154c849eba07a6cd5') in 0.007126 seconds
+  Import took 0.010962 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003668 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1926.
+Total: 2.410500 ms (FindLiveObjects: 0.193200 ms CreateObjectMapping: 0.086000 ms MarkObjects: 2.050700 ms  DeleteObjects: 0.079800 ms)
+
