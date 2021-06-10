@@ -5,6 +5,9 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.AI;
 
+/// <summary>
+/// Artificial Intelligence for the aligator.
+/// </summary>
 [RequireComponent(typeof(NavMeshAgent))]
 public class AligatorBrain : MonoBehaviour
 {
@@ -56,11 +59,6 @@ public class AligatorBrain : MonoBehaviour
 
     private Vector3 startPosition;
 
-    private void Awake()
-    {
-
-    }
-
     private void Start()
     {
         Initialize();
@@ -76,7 +74,7 @@ public class AligatorBrain : MonoBehaviour
         behaviour.Execute();
     }
 
-    public void Initialize()
+    private void Initialize()
     {
         startPosition = transform.position;
 
