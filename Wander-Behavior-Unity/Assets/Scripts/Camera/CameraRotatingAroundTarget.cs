@@ -35,25 +35,39 @@ public class CameraRotatingAroundTarget : MonoBehaviour
 
     private Vector3? lastMousePosition;
 
+    private void Start()
+    {
+        SetPositionAndRotation(false);
+    }
+
     private void LateUpdate()
     {
-        var mousePosition = Input.mousePosition;
-        var rightMouseButtonClicked = Input.GetMouseButton(1);
-        var mouseWheelEps = 0.0001f;
-        var mouseWheelValue = Input.GetAxis("Mouse ScrollWheel");
-        var mouseWheelScrolled = Mathf.Abs(mouseWheelValue) > mouseWheelEps;
+        ProcessInput();
+        SetPositionAndRotation();
+    }
 
+    private void SetPositionAndRotation(bool interpolate = true)
+    {
         Quaternion targetOffsetRotation = Quaternion.Euler(verticalAngleInDegrees, horizontalAngleInDegrees, 0);
         Vector3 targetOffset = targetOffsetRotation * Vector3.forward;
         Vector3 newPosition = target.position + targetOffset;
 
-        transform.position = Vector3.Lerp(transform.position, newPosition, 0.1f);
+        transform.position = interpolate ? Vector3.Lerp(transform.position, newPosition, 0.1f) : newPosition;
 
         Vector3 dirToTarget = (target.position - transform.position).normalized;
 
         transform.position = target.position - dirToTarget * currentDistanceToTarget;
 
         transform.LookAt(target.position);
+    }
+
+    private void ProcessInput()
+    {
+        var mousePosition = Input.mousePosition;
+        var rightMouseButtonClicked = Input.GetMouseButton(1);
+        var mouseWheelEps = 0.0001f;
+        var mouseWheelValue = Input.GetAxis("Mouse ScrollWheel");
+        var mouseWheelScrolled = Mathf.Abs(mouseWheelValue) > mouseWheelEps;
 
         if (rightMouseButtonClicked)
         {
