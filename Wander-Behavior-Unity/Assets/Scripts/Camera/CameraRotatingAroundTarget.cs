@@ -32,6 +32,7 @@ public class CameraRotatingAroundTarget : MonoBehaviour
     [Header("Speeds", order = 3)]
     public float rotationSpeed = 0.1f;
     public float zoomingSpeed = 1.2f;
+    public float interpolationSpeed = 0.5f;
 
     private Vector3? lastMousePosition;
 
@@ -52,7 +53,7 @@ public class CameraRotatingAroundTarget : MonoBehaviour
         Vector3 targetOffset = targetOffsetRotation * Vector3.forward;
         Vector3 newPosition = target.position + targetOffset;
 
-        transform.position = interpolate ? Vector3.Lerp(transform.position, newPosition, 0.1f) : newPosition;
+        transform.position = interpolate ? Vector3.Lerp(transform.position, newPosition, interpolationSpeed) : newPosition;
 
         Vector3 dirToTarget = (target.position - transform.position).normalized;
 

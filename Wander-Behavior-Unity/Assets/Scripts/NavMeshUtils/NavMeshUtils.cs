@@ -5,10 +5,6 @@ using UnityEngine.AI;
 
 public class NavMeshUtils : MonoBehaviour
 {
-    public static int sidewalkAreaNumber = 0;
-
-    public static int crosswalkAreaNumber = 3;
-
     public static int GetAreaMask(int areaNumber)
     {
         return 1 << areaNumber;
